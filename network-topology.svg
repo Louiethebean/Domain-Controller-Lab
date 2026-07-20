@@ -1,20 +1,18 @@
-<svg viewBox="0 0 820 560" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" font-size="12">
-  <rect width="820" height="560" fill="#ffffff"/>
+<svg viewBox="0 0 860 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" font-size="12">
+  <rect width="860" height="700" fill="#ffffff"/>
 
   <!-- Title -->
-  <text x="410" y="32" fill="#1a1a1a" font-size="18" font-weight="bold" text-anchor="middle">Network topology</text>
+  <text x="430" y="30" fill="#1a1a1a" font-size="18" font-weight="bold" text-anchor="middle">Network topology</text>
 
-  <!-- ── Secure HomeLab Project (top-left logo) ── -->
-  <g transform="translate(32,52)">
-    <!-- building icon -->
+  <!-- ── Secure HomeLab Project top-left ── -->
+  <g transform="translate(32,48)">
     <rect x="0" y="12" width="10" height="14" fill="none" stroke="#2e6da4" stroke-width="1.5"/>
-    <rect x="12" y="6" width="14" height="20" fill="none" stroke="#2e6da4" stroke-width="1.5"/>
+    <rect x="12" y="6"  width="14" height="20" fill="none" stroke="#2e6da4" stroke-width="1.5"/>
     <rect x="28" y="12" width="10" height="14" fill="none" stroke="#2e6da4" stroke-width="1.5"/>
-    <!-- windows -->
-    <rect x="2" y="15" width="3" height="3" fill="#2e6da4"/>
-    <rect x="6" y="15" width="3" height="3" fill="#2e6da4"/>
-    <rect x="14" y="9" width="3" height="3" fill="#2e6da4"/>
-    <rect x="19" y="9" width="3" height="3" fill="#2e6da4"/>
+    <rect x="2"  y="15" width="3" height="3" fill="#2e6da4"/>
+    <rect x="6"  y="15" width="3" height="3" fill="#2e6da4"/>
+    <rect x="14" y="9"  width="3" height="3" fill="#2e6da4"/>
+    <rect x="19" y="9"  width="3" height="3" fill="#2e6da4"/>
     <rect x="14" y="15" width="3" height="3" fill="#2e6da4"/>
     <rect x="19" y="15" width="3" height="3" fill="#2e6da4"/>
     <rect x="30" y="15" width="3" height="3" fill="#2e6da4"/>
@@ -22,18 +20,17 @@
     <text x="0" y="44" fill="#2e6da4" font-size="10" font-weight="bold">Secure HomeLab Project</text>
   </g>
 
-  <!-- ── Internet cloud (top-right) ── -->
-  <g transform="translate(648,52)">
-    <ellipse cx="60" cy="38" rx="58" ry="30" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
-    <ellipse cx="32" cy="44" rx="22" ry="16" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
-    <ellipse cx="88" cy="44" rx="22" ry="16" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
-    <ellipse cx="60" cy="50" rx="35" ry="14" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
-    <text x="60" y="44" fill="#1a1a1a" font-size="14" font-weight="bold" text-anchor="middle">Internet</text>
+  <!-- ── Internet cloud top-right ── -->
+  <g transform="translate(648,48)">
+    <ellipse cx="60" cy="36" rx="58" ry="28" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
+    <ellipse cx="32" cy="42" rx="22" ry="15" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
+    <ellipse cx="88" cy="42" rx="22" ry="15" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
+    <ellipse cx="60" cy="48" rx="34" ry="13" fill="#f5f5f5" stroke="#888" stroke-width="1.5"/>
+    <text x="60" y="42" fill="#1a1a1a" font-size="14" font-weight="bold" text-anchor="middle">Internet</text>
   </g>
 
   <!-- ── Router ── -->
-  <g transform="translate(580,148)">
-    <!-- router body -->
+  <g transform="translate(578,148)">
     <rect x="0" y="8" width="56" height="18" rx="3" fill="#2e6da4"/>
     <circle cx="8"  cy="17" r="3" fill="#7ec8e3"/>
     <circle cx="18" cy="17" r="3" fill="#7ec8e3"/>
@@ -43,12 +40,10 @@
     <text x="28" y="40" fill="#1a1a1a" font-size="11" text-anchor="middle">Router</text>
   </g>
 
-  <!-- ── Threat actor (laptop with skull, top-center) ── -->
-  <g transform="translate(330,60)">
-    <!-- laptop screen -->
-    <rect x="8" y="0" width="50" height="36" rx="3" fill="#2e6da4"/>
+  <!-- ── Threat actor laptop ── -->
+  <g transform="translate(328,58)">
+    <rect x="8" y="0"  width="50" height="36" rx="3" fill="#2e6da4"/>
     <rect x="11" y="3" width="44" height="30" rx="2" fill="#c0d8f0"/>
-    <!-- skull on screen -->
     <ellipse cx="33" cy="14" rx="9" ry="9" fill="#cc0000"/>
     <circle cx="29" cy="13" r="2.5" fill="white"/>
     <circle cx="37" cy="13" r="2.5" fill="white"/>
@@ -56,55 +51,49 @@
     <line x1="31" y1="19" x2="31" y2="23" stroke="white" stroke-width="1"/>
     <line x1="33" y1="19" x2="33" y2="23" stroke="white" stroke-width="1"/>
     <line x1="35" y1="19" x2="35" y2="23" stroke="white" stroke-width="1"/>
-    <!-- base -->
     <rect x="0" y="36" width="66" height="5" rx="2" fill="#2e6da4"/>
-    <text x="33" y="56" fill="#1a1a1a" font-size="11" text-anchor="middle">Threat actor</text>
+    <text x="33" y="54" fill="#1a1a1a" font-size="11" text-anchor="middle">Threat actor</text>
   </g>
 
-  <!-- ── pfSense firewall stack ── -->
-  <g transform="translate(390,172)">
-    <rect x="0"  y="0"  width="42" height="10" rx="2" fill="#2e6da4"/>
-    <rect x="0"  y="13" width="42" height="10" rx="2" fill="#2e6da4"/>
-    <rect x="0"  y="26" width="42" height="10" rx="2" fill="#2e6da4"/>
+  <!-- ── pfSense stack ── -->
+  <g transform="translate(389,168)">
+    <rect x="0"  y="0"  width="44" height="10" rx="2" fill="#2e6da4"/>
+    <rect x="0"  y="13" width="44" height="10" rx="2" fill="#2e6da4"/>
+    <rect x="0"  y="26" width="44" height="10" rx="2" fill="#2e6da4"/>
     <rect x="2"  y="2"  width="6"  height="6"  rx="1" fill="#7ec8e3"/>
     <rect x="2"  y="15" width="6"  height="6"  rx="1" fill="#7ec8e3"/>
     <rect x="2"  y="28" width="6"  height="6"  rx="1" fill="#7ec8e3"/>
-    <text x="21" y="50" fill="#1a1a1a" font-size="11" text-anchor="middle">pfSense</text>
+    <text x="22" y="50" fill="#1a1a1a" font-size="11" text-anchor="middle">pfSense</text>
   </g>
 
-  <!-- ── DC01 (center desktop computer) ── -->
-  <g transform="translate(348,272)">
-    <!-- highlight box -->
-    <rect x="-14" y="-10" width="112" height="100" rx="8" fill="#e8f0fa" stroke="#aac4e8" stroke-width="1.5"/>
-    <!-- monitor -->
-    <rect x="4" y="0" width="76" height="52" rx="3" fill="#2e6da4"/>
-    <rect x="8" y="4" width="68" height="44" rx="2" fill="#c0d8f0"/>
-    <!-- monitor stand -->
-    <rect x="36" y="52" width="12" height="8" fill="#2e6da4"/>
-    <rect x="28" y="60" width="28" height="4" rx="1" fill="#2e6da4"/>
-    <!-- tower/case -->
+  <!-- ── DC01 center ── -->
+  <g transform="translate(346,268)">
+    <rect x="-14" y="-10" width="114" height="102" rx="8" fill="#e8f0fa" stroke="#aac4e8" stroke-width="1.5"/>
+    <rect x="4"  y="0"  width="76" height="52" rx="3" fill="#2e6da4"/>
+    <rect x="8"  y="4"  width="68" height="44" rx="2" fill="#c0d8f0"/>
+    <rect x="36" y="52" width="12" height="8"  fill="#2e6da4"/>
+    <rect x="28" y="60" width="28" height="4"  rx="1" fill="#2e6da4"/>
     <rect x="12" y="68" width="26" height="16" rx="2" fill="#2e6da4"/>
     <circle cx="32" cy="76" r="2" fill="#7ec8e3"/>
-    <!-- keyboard suggestion -->
-    <rect x="46" y="74" width="32" height="6" rx="1" fill="#2e6da4"/>
-    <text x="42" y="104" fill="#1a1a1a" font-size="12" font-weight="bold" text-anchor="middle">DC01</text>
+    <rect x="46" y="74" width="32" height="6"  rx="1" fill="#2e6da4"/>
+    <text x="43" y="104" fill="#1a1a1a" font-size="12" font-weight="bold" text-anchor="middle">DC01</text>
   </g>
 
-  <!-- ── SERVERS label (vertical, left side) ── -->
+  <!-- ── SERVERS label ── -->
   <text x="28" y="360" fill="#444" font-size="11" font-weight="bold" writing-mode="tb" letter-spacing="3">SERVERS</text>
 
-  <!-- ── Vulnerability scanner server ── -->
-  <g transform="translate(60,202)">
+  <!-- Vuln scanner -->
+  <g transform="translate(58,200)">
     <rect x="0"  y="0"  width="44" height="12" rx="2" fill="#2e6da4"/>
     <rect x="0"  y="15" width="44" height="12" rx="2" fill="#2e6da4"/>
     <rect x="2"  y="2"  width="8"  height="8"  rx="1" fill="#7ec8e3"/>
     <rect x="2"  y="17" width="8"  height="8"  rx="1" fill="#7ec8e3"/>
-    <text x="22" y="-6"  fill="#1a1a1a" font-size="10" text-anchor="middle">Vulnerability</text>
-    <text x="22" y="4"   fill="#1a1a1a" font-size="10" text-anchor="middle" dy="26">scanner</text>
+    <text x="22" y="-14" fill="#1a1a1a" font-size="10" text-anchor="middle">Vulnerability</text>
+    <text x="22" y="-3"  fill="#1a1a1a" font-size="10" text-anchor="middle">scanner</text>
   </g>
 
-  <!-- ── SIEM server ── -->
-  <g transform="translate(60,284)">
+  <!-- SIEM -->
+  <g transform="translate(58,282)">
     <rect x="0"  y="0"  width="44" height="12" rx="2" fill="#2e6da4"/>
     <rect x="0"  y="15" width="44" height="12" rx="2" fill="#2e6da4"/>
     <rect x="2"  y="2"  width="8"  height="8"  rx="1" fill="#7ec8e3"/>
@@ -112,8 +101,8 @@
     <text x="22" y="-4" fill="#1a1a1a" font-size="10" text-anchor="middle">SIEM</text>
   </g>
 
-  <!-- ── VPN server ── -->
-  <g transform="translate(60,362)">
+  <!-- VPN -->
+  <g transform="translate(58,360)">
     <rect x="0"  y="0"  width="44" height="12" rx="2" fill="#2e6da4"/>
     <rect x="0"  y="15" width="44" height="12" rx="2" fill="#2e6da4"/>
     <rect x="2"  y="2"  width="8"  height="8"  rx="1" fill="#7ec8e3"/>
@@ -122,100 +111,184 @@
   </g>
 
   <!-- servers bracket -->
-  <rect x="46" y="195" width="4" height="196" rx="2" fill="none" stroke="#aaa" stroke-width="1.5"/>
+  <rect x="44" y="193" width="4" height="196" rx="2" fill="none" stroke="#aaa" stroke-width="1.5"/>
 
-  <!-- ── RDP Server (right side) ── -->
-  <g transform="translate(672,284)">
-    <!-- monitor -->
-    <rect x="0" y="0" width="54" height="38" rx="3" fill="#2e6da4"/>
-    <rect x="4" y="4" width="46" height="28" rx="2" fill="#c0d8f0"/>
-    <!-- cloud icon on screen -->
-    <ellipse cx="23" cy="17" rx="14" ry="8" fill="#7ec8e3"/>
-    <ellipse cx="14" cy="19" rx="7" ry="5" fill="#7ec8e3"/>
-    <ellipse cx="32" cy="19" rx="7" ry="5" fill="#7ec8e3"/>
-    <!-- stand -->
+  <!-- ── RDP Server ── -->
+  <g transform="translate(672,278)">
+    <rect x="0"  y="0"  width="54" height="38" rx="3" fill="#2e6da4"/>
+    <rect x="4"  y="4"  width="46" height="28" rx="2" fill="#c0d8f0"/>
+    <ellipse cx="23" cy="17" rx="14" ry="8"  fill="#7ec8e3"/>
+    <ellipse cx="14" cy="19" rx="7"  ry="5"  fill="#7ec8e3"/>
+    <ellipse cx="32" cy="19" rx="7"  ry="5"  fill="#7ec8e3"/>
     <rect x="22" y="38" width="10" height="6" fill="#2e6da4"/>
     <rect x="16" y="44" width="22" height="3" rx="1" fill="#2e6da4"/>
     <text x="27" y="58" fill="#1a1a1a" font-size="11" text-anchor="middle">RDP Server</text>
   </g>
 
-  <!-- ── Workstations ── -->
-  <!-- PC01 -->
-  <g transform="translate(244,448)">
+  <!-- ── PC01 ── -->
+  <g transform="translate(242,450)">
     <rect x="2" y="0" width="48" height="34" rx="3" fill="#2e6da4"/>
     <rect x="6" y="4" width="40" height="26" rx="2" fill="#c0d8f0"/>
-    <rect x="22" y="34" width="8" height="5" fill="#2e6da4"/>
-    <rect x="16" y="39" width="20" height="3" rx="1" fill="#2e6da4"/>
-    <rect x="0" y="44" width="52" height="4" rx="1" fill="#2e6da4"/>
-    <!-- mouse cable suggestion -->
+    <rect x="22" y="34" width="8"  height="5"  fill="#2e6da4"/>
+    <rect x="16" y="39" width="20" height="3"  rx="1" fill="#2e6da4"/>
+    <rect x="0"  y="44" width="52" height="4"  rx="1" fill="#2e6da4"/>
     <line x1="52" y1="46" x2="58" y2="50" stroke="#2e6da4" stroke-width="1.5"/>
     <circle cx="60" cy="51" r="3" fill="none" stroke="#2e6da4" stroke-width="1.5"/>
     <rect x="0" y="-14" width="36" height="13" rx="3" fill="white" stroke="#2e6da4" stroke-width="1.2"/>
     <text x="18" y="-4" fill="#2e6da4" font-size="10" text-anchor="middle" font-weight="bold">PC01</text>
   </g>
 
-  <!-- PC02 -->
-  <g transform="translate(372,448)">
+  <!-- ── PC02 ── -->
+  <g transform="translate(372,450)">
     <rect x="2" y="0" width="48" height="34" rx="3" fill="#2e6da4"/>
     <rect x="6" y="4" width="40" height="26" rx="2" fill="#c0d8f0"/>
-    <rect x="22" y="34" width="8" height="5" fill="#2e6da4"/>
-    <rect x="16" y="39" width="20" height="3" rx="1" fill="#2e6da4"/>
-    <rect x="0" y="44" width="52" height="4" rx="1" fill="#2e6da4"/>
+    <rect x="22" y="34" width="8"  height="5"  fill="#2e6da4"/>
+    <rect x="16" y="39" width="20" height="3"  rx="1" fill="#2e6da4"/>
+    <rect x="0"  y="44" width="52" height="4"  rx="1" fill="#2e6da4"/>
     <line x1="52" y1="46" x2="58" y2="50" stroke="#2e6da4" stroke-width="1.5"/>
     <circle cx="60" cy="51" r="3" fill="none" stroke="#2e6da4" stroke-width="1.5"/>
     <rect x="0" y="-14" width="36" height="13" rx="3" fill="white" stroke="#2e6da4" stroke-width="1.2"/>
     <text x="18" y="-4" fill="#2e6da4" font-size="10" text-anchor="middle" font-weight="bold">PC02</text>
   </g>
 
-  <!-- PC03 -->
-  <g transform="translate(500,448)">
+  <!-- ── PC03 ── -->
+  <g transform="translate(498,450)">
     <rect x="2" y="0" width="48" height="34" rx="3" fill="#2e6da4"/>
     <rect x="6" y="4" width="40" height="26" rx="2" fill="#c0d8f0"/>
-    <rect x="22" y="34" width="8" height="5" fill="#2e6da4"/>
-    <rect x="16" y="39" width="20" height="3" rx="1" fill="#2e6da4"/>
-    <rect x="0" y="44" width="52" height="4" rx="1" fill="#2e6da4"/>
+    <rect x="22" y="34" width="8"  height="5"  fill="#2e6da4"/>
+    <rect x="16" y="39" width="20" height="3"  rx="1" fill="#2e6da4"/>
+    <rect x="0"  y="44" width="52" height="4"  rx="1" fill="#2e6da4"/>
     <line x1="52" y1="46" x2="58" y2="50" stroke="#2e6da4" stroke-width="1.5"/>
     <circle cx="60" cy="51" r="3" fill="none" stroke="#2e6da4" stroke-width="1.5"/>
     <rect x="0" y="-14" width="36" height="13" rx="3" fill="white" stroke="#2e6da4" stroke-width="1.2"/>
     <text x="18" y="-4" fill="#2e6da4" font-size="10" text-anchor="middle" font-weight="bold">PC03</text>
   </g>
 
-  <!-- ════ CONNECTIONS ════ -->
+  <!-- ════════ CONNECTIONS ════════ -->
 
   <!-- Internet → Router (dashed) -->
-  <line x1="700" y1="110" x2="620" y2="152" stroke="#888" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="700" y1="106" x2="620" y2="152" stroke="#888" stroke-width="1.5" stroke-dasharray="6,4"/>
 
   <!-- Threat actor → Router (solid) -->
-  <line x1="500" y1="108" x2="608" y2="152" stroke="#2e6da4" stroke-width="1.5"/>
+  <line x1="498" y1="106" x2="607" y2="152" stroke="#2e6da4" stroke-width="1.5"/>
 
-  <!-- Threat actor → pfSense (solid down) -->
-  <line x1="413" y1="118" x2="411" y2="172" stroke="#2e6da4" stroke-width="1.5"/>
+  <!-- Threat actor → pfSense (down) -->
+  <line x1="411" y1="116" x2="411" y2="168" stroke="#2e6da4" stroke-width="1.5"/>
 
-  <!-- Router → pfSense (solid) -->
-  <line x1="582" y1="165" x2="432" y2="192" stroke="#2e6da4" stroke-width="1.5"/>
+  <!-- Router → pfSense -->
+  <line x1="580" y1="165" x2="433" y2="190" stroke="#2e6da4" stroke-width="1.5"/>
 
-  <!-- pfSense → DC01 (solid down) -->
-  <line x1="411" y1="222" x2="411" y2="272" stroke="#2e6da4" stroke-width="2"/>
+  <!-- pfSense → DC01 -->
+  <line x1="411" y1="218" x2="411" y2="268" stroke="#2e6da4" stroke-width="2"/>
 
-  <!-- DC01 → Vulnerability scanner (dashed) -->
-  <line x1="348" y1="320" x2="104" y2="216" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- DC01 → Vuln scanner (dashed) -->
+  <line x1="346" y1="316" x2="102" y2="213" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
 
   <!-- DC01 → SIEM (dashed) -->
-  <line x1="348" y1="328" x2="104" y2="296" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="346" y1="325" x2="102" y2="292" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
 
   <!-- DC01 → VPN (dashed) -->
-  <line x1="348" y1="336" x2="104" y2="372" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="346" y1="334" x2="102" y2="370" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
 
   <!-- DC01 → RDP Server (dashed) -->
-  <line x1="460" y1="322" x2="672" y2="305" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <line x1="460" y1="318" x2="672" y2="301" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="6,4"/>
 
-  <!-- DC01 → Workstations (dashed, down) -->
-  <line x1="411" y1="374" x2="411" y2="434" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
-  <!-- horizontal spread to PCs -->
-  <line x1="271" y1="434" x2="527" y2="434" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
-  <!-- drop to each PC -->
-  <line x1="271" y1="434" x2="271" y2="448" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
-  <line x1="399" y1="434" x2="399" y2="448" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
-  <line x1="527" y1="434" x2="527" y2="448" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <!-- DC01 → PCs (dashed) -->
+  <line x1="411" y1="372" x2="411" y2="436" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="269" y1="436" x2="525" y2="436" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="269" y1="436" x2="269" y2="450" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="399" y1="436" x2="399" y2="450" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="525" y1="436" x2="525" y2="450" stroke="#2e6da4" stroke-width="1.5" stroke-dasharray="5,4"/>
 
+  <!-- ════════ PORT LABELS on connections ════════ -->
+
+  <!-- pfSense → DC01: label -->
+  <rect x="420" y="234" width="94" height="14" rx="3" fill="#eef4fb" stroke="#aac4e8" stroke-width="1"/>
+  <text x="467" y="244" fill="#2e6da4" font-size="9" text-anchor="middle">TCP 443/80 mgmt</text>
+
+  <!-- DC01 → Vuln scanner: label midpoint ~224,264 -->
+  <rect x="148" y="253" width="100" height="14" rx="3" fill="#eef4fb" stroke="#aac4e8" stroke-width="1"/>
+  <text x="198" y="263" fill="#2e6da4" font-size="9" text-anchor="middle">TCP 445,139,135</text>
+
+  <!-- DC01 → SIEM: label midpoint ~224,308 -->
+  <rect x="148" y="299" width="112" height="14" rx="3" fill="#eef4fb" stroke="#aac4e8" stroke-width="1"/>
+  <text x="204" y="309" fill="#2e6da4" font-size="9" text-anchor="middle">TCP 9997 · UDP 514</text>
+
+  <!-- DC01 → VPN: label midpoint ~224,352 -->
+  <rect x="148" y="344" width="96" height="14" rx="3" fill="#eef4fb" stroke="#aac4e8" stroke-width="1"/>
+  <text x="196" y="354" fill="#2e6da4" font-size="9" text-anchor="middle">UDP 1194 (OpenVPN)</text>
+
+  <!-- DC01 → RDP Server: label midpoint ~566,309 -->
+  <rect x="510" y="300" width="68" height="14" rx="3" fill="#eef4fb" stroke="#aac4e8" stroke-width="1"/>
+  <text x="544" y="310" fill="#2e6da4" font-size="9" text-anchor="middle">TCP 3389</text>
+
+  <!-- DC01 → PCs: label on vertical drop -->
+  <rect x="420" y="394" width="128" height="26" rx="3" fill="#eef4fb" stroke="#aac4e8" stroke-width="1"/>
+  <text x="484" y="404" fill="#2e6da4" font-size="9" text-anchor="middle">TCP 53,88,389,445,3268</text>
+  <text x="484" y="416" fill="#2e6da4" font-size="9" text-anchor="middle">UDP 53 · 67/68 (DHCP)</text>
+
+  <!-- ════════ PORTS REFERENCE TABLE ════════ -->
+  <rect x="30" y="530" width="800" height="158" rx="6" fill="#f8fafd" stroke="#d0dff0" stroke-width="1.5"/>
+  <text x="430" y="549" fill="#1a1a1a" font-size="12" font-weight="bold" text-anchor="middle">Required Open Ports</text>
+  <line x1="30" y1="554" x2="830" y2="554" stroke="#d0dff0" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <text x="60"  y="568" fill="#2e6da4" font-size="10" font-weight="bold">Port</text>
+  <text x="120" y="568" fill="#2e6da4" font-size="10" font-weight="bold">Protocol</text>
+  <text x="200" y="568" fill="#2e6da4" font-size="10" font-weight="bold">Service</text>
+  <text x="360" y="568" fill="#2e6da4" font-size="10" font-weight="bold">Used For</text>
+
+  <line x1="30" y1="572" x2="830" y2="572" stroke="#e0e8f0" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <text x="60"  y="584" fill="#333" font-size="10">53</text>
+  <text x="120" y="584" fill="#333" font-size="10">TCP/UDP</text>
+  <text x="200" y="584" fill="#333" font-size="10">DNS</text>
+  <text x="360" y="584" fill="#333" font-size="10">Domain name resolution — required by every domain-joined machine</text>
+
+  <!-- Row 2 -->
+  <rect x="30" y="587" width="800" height="14" fill="#f0f5fb"/>
+  <text x="60"  y="598" fill="#333" font-size="10">67 / 68</text>
+  <text x="120" y="598" fill="#333" font-size="10">UDP</text>
+  <text x="200" y="598" fill="#333" font-size="10">DHCP</text>
+  <text x="360" y="598" fill="#333" font-size="10">IP address assignment from DHCP server to clients</text>
+
+  <!-- Row 3 -->
+  <text x="60"  y="612" fill="#333" font-size="10">88</text>
+  <text x="120" y="612" fill="#333" font-size="10">TCP/UDP</text>
+  <text x="200" y="612" fill="#333" font-size="10">Kerberos</text>
+  <text x="360" y="612" fill="#333" font-size="10">Authentication tickets — every domain login and service access</text>
+
+  <!-- Row 4 -->
+  <rect x="30" y="615" width="800" height="14" fill="#f0f5fb"/>
+  <text x="60"  y="626" fill="#333" font-size="10">135</text>
+  <text x="120" y="626" fill="#333" font-size="10">TCP</text>
+  <text x="200" y="626" fill="#333" font-size="10">RPC Endpoint Mapper</text>
+  <text x="360" y="626" fill="#333" font-size="10">RPC-based services including replication and WMI</text>
+
+  <!-- Row 5 -->
+  <text x="60"  y="640" fill="#333" font-size="10">389</text>
+  <text x="120" y="640" fill="#333" font-size="10">TCP</text>
+  <text x="200" y="640" fill="#333" font-size="10">LDAP</text>
+  <text x="360" y="640" fill="#333" font-size="10">Active Directory queries — user/computer lookups, Group Policy</text>
+
+  <!-- Row 6 -->
+  <rect x="30" y="643" width="800" height="14" fill="#f0f5fb"/>
+  <text x="60"  y="654" fill="#333" font-size="10">445</text>
+  <text x="120" y="654" fill="#333" font-size="10">TCP</text>
+  <text x="200" y="654" fill="#333" font-size="10">SMB / SYSVOL</text>
+  <text x="360" y="654" fill="#333" font-size="10">Group Policy delivery, SYSVOL replication, file shares</text>
+
+  <!-- Row 7 -->
+  <text x="60"  y="668" fill="#333" font-size="10">3268 / 3269</text>
+  <text x="120" y="668" fill="#333" font-size="10">TCP</text>
+  <text x="200" y="668" fill="#333" font-size="10">Global Catalog</text>
+  <text x="360" y="668" fill="#333" font-size="10">Forest-wide LDAP searches (3268 plain, 3269 SSL)</text>
+
+  <!-- Row 8 -->
+  <rect x="30" y="671" width="800" height="14" fill="#f0f5fb"/>
+  <text x="60"  y="682" fill="#333" font-size="10">3389</text>
+  <text x="120" y="682" fill="#333" font-size="10">TCP</text>
+  <text x="200" y="682" fill="#333" font-size="10">RDP</text>
+  <text x="360" y="682" fill="#333" font-size="10">Remote Desktop — admin access to servers and workstations</text>
 </svg>
