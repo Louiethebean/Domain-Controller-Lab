@@ -1,0 +1,114 @@
+<svg viewBox="0 0 920 440" xmlns="http://www.w3.org/2000/svg" font-family="monospace" font-size="12">
+  <rect width="920" height="440" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="460" y="28" fill="#e6edf3" font-size="14" font-weight="bold" text-anchor="middle">Active Directory Lab — Dual DC Redundancy Build</text>
+
+  <!-- Internet -->
+  <rect x="380" y="45" width="100" height="36" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="430" y="67" fill="#8b949e" font-size="11" text-anchor="middle">Internet / NAT</text>
+
+  <!-- pfSense -->
+  <rect x="380" y="105" width="100" height="36" rx="6" fill="#161b22" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="430" y="127" fill="#388bfd" font-size="11" font-weight="bold" text-anchor="middle">pfSense FW</text>
+
+  <!-- Arrow internet → pfSense -->
+  <line x1="430" y1="81" x2="430" y2="105" stroke="#30363d" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- LAN backbone -->
+  <line x1="90" y1="175" x2="830" y2="175" stroke="#21262d" stroke-width="8"/>
+  <line x1="90" y1="175" x2="830" y2="175" stroke="#30363d" stroke-width="1.5"/>
+  <text x="460" y="170" fill="#484f58" font-size="10" text-anchor="middle">10.50.0.0/24 — corp.example.com domain LAN</text>
+
+  <!-- Arrow pfSense → LAN -->
+  <line x1="430" y1="141" x2="430" y2="175" stroke="#388bfd" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- DC01 -->
+  <rect x="290" y="195" width="140" height="72" rx="6" fill="#0f2a1a" stroke="#3fb950" stroke-width="2"/>
+  <text x="360" y="216" fill="#3fb950" font-size="12" font-weight="bold" text-anchor="middle">CORP-DC01</text>
+  <text x="360" y="232" fill="#8b949e" font-size="10" text-anchor="middle">Primary DC · DNS · GC</text>
+  <text x="360" y="247" fill="#8b949e" font-size="10" text-anchor="middle">10.50.0.10</text>
+  <text x="360" y="260" fill="#3fb950" font-size="10" text-anchor="middle">Forest Root</text>
+
+  <!-- DC02 -->
+  <rect x="490" y="195" width="140" height="72" rx="6" fill="#0f2a1a" stroke="#3fb950" stroke-width="2"/>
+  <text x="560" y="216" fill="#3fb950" font-size="12" font-weight="bold" text-anchor="middle">CORP-DC02</text>
+  <text x="560" y="232" fill="#8b949e" font-size="10" text-anchor="middle">Replica DC · DNS · GC</text>
+  <text x="560" y="247" fill="#8b949e" font-size="10" text-anchor="middle">10.50.0.11</text>
+  <text x="560" y="260" fill="#3fb950" font-size="10" text-anchor="middle">Redundancy</text>
+
+  <!-- Replication arrow DC01 ↔ DC02 -->
+  <line x1="430" y1="231" x2="490" y2="231" stroke="#388bfd" stroke-width="1.5" marker-end="url(#arr2)" marker-start="url(#arr3)"/>
+  <text x="460" y="225" fill="#388bfd" font-size="9" text-anchor="middle">AD Replication</text>
+
+  <!-- Drop from LAN to DC01 and DC02 -->
+  <line x1="360" y1="175" x2="360" y2="195" stroke="#3fb950" stroke-width="1.5"/>
+  <line x1="560" y1="175" x2="560" y2="195" stroke="#3fb950" stroke-width="1.5"/>
+
+  <!-- MEMBER01 -->
+  <rect x="390" y="305" width="140" height="72" rx="6" fill="#161b22" stroke="#d29922" stroke-width="1.5"/>
+  <text x="460" y="326" fill="#d29922" font-size="12" font-weight="bold" text-anchor="middle">CORP-MEMBER01</text>
+  <text x="460" y="342" fill="#8b949e" font-size="10" text-anchor="middle">DHCP · File Server</text>
+  <text x="460" y="357" fill="#8b949e" font-size="10" text-anchor="middle">PKI · NPS</text>
+  <text x="460" y="370" fill="#d29922" font-size="10" text-anchor="middle">10.50.0.20</text>
+
+  <!-- Drop LAN → MEMBER01 -->
+  <line x1="460" y1="175" x2="460" y2="305" stroke="#d29922" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Workstations -->
+  <rect x="30" y="305" width="110" height="60" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="85" y="326" fill="#58a6ff" font-size="11" font-weight="bold" text-anchor="middle">PC01–PC03</text>
+  <text x="85" y="342" fill="#8b949e" font-size="10" text-anchor="middle">Workstations</text>
+  <text x="85" y="356" fill="#8b949e" font-size="10" text-anchor="middle">DHCP: .100–.200</text>
+
+  <!-- Drop LAN → Workstations -->
+  <line x1="85" y1="175" x2="85" y2="305" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Security servers block -->
+  <rect x="700" y="195" width="120" height="182" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="760" y="213" fill="#58a6ff" font-size="10" font-weight="bold" text-anchor="middle">Security Servers</text>
+  <line x1="705" y1="218" x2="815" y2="218" stroke="#30363d" stroke-width="1"/>
+  <text x="760" y="235" fill="#8b949e" font-size="10" text-anchor="middle">Splunk SIEM</text>
+  <text x="760" y="250" fill="#8b949e" font-size="10" text-anchor="middle">10.50.0.30</text>
+  <line x1="705" y1="258" x2="815" y2="258" stroke="#21262d" stroke-width="1"/>
+  <text x="760" y="275" fill="#8b949e" font-size="10" text-anchor="middle">Nessus Scanner</text>
+  <text x="760" y="290" fill="#8b949e" font-size="10" text-anchor="middle">10.50.0.31</text>
+  <line x1="705" y1="298" x2="815" y2="298" stroke="#21262d" stroke-width="1"/>
+  <text x="760" y="315" fill="#8b949e" font-size="10" text-anchor="middle">VPN Server</text>
+  <text x="760" y="330" fill="#8b949e" font-size="10" text-anchor="middle">10.50.0.32</text>
+  <line x1="705" y1="338" x2="815" y2="338" stroke="#21262d" stroke-width="1"/>
+  <text x="760" y="355" fill="#f85149" font-size="10" text-anchor="middle">Threat Actor</text>
+  <text x="760" y="370" fill="#f85149" font-size="10" text-anchor="middle">(RPi / Kali)</text>
+
+  <!-- Drop LAN → Security servers -->
+  <line x1="760" y1="175" x2="760" y2="195" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- DNS callout -->
+  <rect x="155" y="305" width="135" height="72" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="222" y="323" fill="#58a6ff" font-size="10" font-weight="bold" text-anchor="middle">DNS Redundancy</text>
+  <text x="222" y="338" fill="#8b949e" font-size="9" text-anchor="middle">DC01 NIC: .10 → .11</text>
+  <text x="222" y="352" fill="#8b949e" font-size="9" text-anchor="middle">DC02 NIC: .11 → .10</text>
+  <text x="222" y="366" fill="#8b949e" font-size="9" text-anchor="middle">Clients: .10 + .11</text>
+
+  <!-- Legend -->
+  <line x1="30" y1="410" x2="55" y2="410" stroke="#3fb950" stroke-width="2"/>
+  <text x="60" y="414" fill="#8b949e" font-size="10">Domain Controller (redundant pair)</text>
+  <line x1="230" y1="410" x2="255" y2="410" stroke="#d29922" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="260" y="414" fill="#8b949e" font-size="10">Member Server / Infra</text>
+  <line x1="420" y1="410" x2="445" y2="410" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="450" y="414" fill="#8b949e" font-size="10">Domain-joined client</text>
+  <line x1="610" y1="410" x2="635" y2="410" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="640" y="414" fill="#8b949e" font-size="10">AD Replication / LAN</text>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388bfd"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388bfd"/>
+    </marker>
+    <marker id="arr3" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto-start-reverse">
+      <path d="M0,0 L0,6 L8,3 z" fill="#388bfd"/>
+    </marker>
+  </defs>
+</svg>
