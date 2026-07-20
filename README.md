@@ -4,7 +4,7 @@
 
 This guide documents the complete build of an enterprise-style Active Directory lab using two Windows Server 2022 Domain Controllers for redundancy, plus a dedicated member server running DHCP. Every step mirrors real production environments — dual DC promotion, site-aware replication, DNS high-availability, and DHCP authorization through AD.
 
-![Network Topology](./images/page02_img01.png)
+![Network Topology](./network-topology.svg)
 
 ---
 
@@ -38,7 +38,7 @@ The lab replicates a real enterprise perimeter:
 - **Workstations (PC01–PC03)** — domain-joined clients
 - **Security servers** — SIEM (Splunk), vulnerability scanner (Nessus), VPN
 
-![Lab network topology showing DC01 at center, pfSense uplink, SIEM/VPN/scanner servers, and workstations](./images/page02_img01.png)
+![Lab network topology showing DC01 at center, pfSense uplink, SIEM/VPN/scanner servers, and workstations](./network-topology.svg)
 
 ---
 
